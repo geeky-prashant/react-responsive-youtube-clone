@@ -43,7 +43,7 @@ const Header = () => {
       <div className="flex h-5 items-center">
         {pageName !== "video" && (
           <div
-            className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 mr-2 rounded-full hover:bg-[#303030]/[0.6]"
+            className="hidden md:mr-6 cursor-pointer items-center justify-center h-10 mr-2 rounded-full hover:bg-[#303030]/[0.6]"
             onClick={mobileMenuToggle}
           >
             {mobileMenu ? (
