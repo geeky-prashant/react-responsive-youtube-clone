@@ -36,7 +36,7 @@ const Header = () => {
   const pageName = pathname?.split("/")?.filter(Boolean)?.[0];
 
   return (
-    <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 p-3 md:px-5 bg-white dark:bg-black">
+    <div className="sticky top-0 z-10 flex flex-row items-center justify-between h-14 p-3 md:px-5 bg-black">
       {loading && <Loader />}
 
       {/* Logo with Hamburger Menu  */}
